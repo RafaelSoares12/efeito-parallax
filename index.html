@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <img src="imges/m_1.png" id="background">
+        <img src="imges/m_3.png" id="carro">
+        <h2 id="texto">
+            LOREM
+        </h2>
+    </section>
+    <script type="text/javascript">
+        let background = document.getElementById("background");
+        let carro = document.getElementById("carro");
+
+        window.addEventListener('scroll', function(){
+            var value = window.scrollY;
+
+            background.style.top = value * 0.75 + 'px';
+            carro.style.top = value * 0.15 + 'px';
+            texto.style.top = value * 1 + 'px';
+        })
+    </script>
+    <h1 id="conteudo">
+        Lorem ipsum dolor
+    </h1>
+    <p id="mensagem">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a est a orci convallis tempus. Proin eu blandit ipsum. Nam rutrum venenatis rutrum. Sed vel diam dictum, rutrum ipsum vitae, aliquam massa. Integer purus felis, ultrices vel molestie nec, pharetra eget urna. Aenean dictum, felis porta pulvinar elementum, ipsum ligula pretium ligula, non euismod massa erat in neque. In massa est, consequat tristique dolor et, iaculis consectetur est. Nulla porta malesuada purus ut gravida. Curabitur tincidunt, velit id facilisis laoreet, leo nunc bibendum urna, vel vehicula mauris risus vel erat. Pellentesque pulvinar eros id iaculis malesuada. Mauris ut malesuada nunc. Vivamus lobortis leo eu hendrerit vestibulum.
+
+        Etiam varius sed arcu ut semper. Duis mollis ipsum mi, a tincidunt massa commodo id. Integer volutpat tempor mi id hendrerit. Morbi convallis faucibus mattis. Sed lobortis lacus a sollicitudin gravida. Integer semper est quis enim varius, vel venenatis magna scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur ac justo a nisi egestas porta. Mauris sed nisl sodales, dignissim turpis at, bibendum massa. Mauris ullamcorper sapien purus, ac vehicula mi consectetur ac. Nunc egestas, ipsum at suscipit pretium, purus nulla sodales mi, suscipit placerat velit diam egestas risus. Mauris ut velit leo.
+        
+        Fusce semper tellus sit amet convallis dignissim. Fusce consequat purus et enim pulvinar laoreet. Quisque elementum nisl imperdiet, pulvinar ex laoreet, aliquam mi. Nunc vitae quam turpis. Vivamus luctus eu arcu a malesuada. Donec laoreet porttitor nunc, ornare aliquet nisl egestas ut. Aenean lobortis scelerisque massa, vitae pretium magna laoreet ac. Aenean vel erat vel lacus finibus hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam placerat consequat tincidunt. Integer ut pharetra nibh, ut volutpat leo. Etiam sagittis purus augue, nec porttitor felis mollis non. Maecenas iaculis mauris orci, non semper enim dapibus finibus.
+        
+        Aenean accumsan elementum hendrerit. Maecenas ac placerat sem, a auctor nisi. Donec pulvinar ac ante at placerat. Cras bibendum dapibus velit, ut semper elit dapibus nec. Donec scelerisque nisl eget consequat blandit. Curabitur laoreet diam eu massa malesuada convallis. In fermentum, leo quis dictum pulvinar, leo est laoreet neque, vel dapibus quam nibh sit amet erat. Sed tincidunt, mauris id sagittis dignissim, elit tellus hendrerit tortor, tincidunt sollicitudin augue nulla eget justo. Curabitur tempus sollicitudin urna, non consectetur sapien cursus nec. Maecenas blandit volutpat velit, ac semper sem aliquet a. Praesent egestas risus ut sem ultricies, at suscipit mi iaculis. Vivamus felis libero, fermentum a iaculis scelerisque, tempus in orci.
+        
+        Mauris efficitur orci ante, sit amet aliquet eros commodo quis. Vivamus eu enim dolor. Maecenas cursus gravida ex non posuere. Suspendisse a pulvinar felis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse in pellentesque sapien, sit amet iaculis lorem. Praesent convallis euismod leo, sed porttitor urna rhoncus ac. Curabitur porta leo purus, ut euismod nibh blandit eget. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam semper neque id lacus malesuada tempor. Suspendisse ut tellus eu libero sollicitudin pretium. Nulla at ipsum metus. Morbi id hendrerit turpis. Praesent tempor gravida aliquet.
+        
+        Vestibulum feugiat, metus vitae blandit rhoncus, nisl lorem feugiat metus, id feugiat orci nulla vitae erat. Sed elementum, ipsum vel molestie elementum, libero enim finibus nibh, eu consectetur lectus tortor sit amet nunc. Sed mollis neque in elit porttitor suscipit eget at lorem. Aliquam erat volutpat. Sed tellus neque, iaculis id nibh et, molestie pharetra justo. Vestibulum vel lorem dolor. Vestibulum euismod eros et ipsum eleifend efficitur. Aenean placerat augue eu ligula ultrices aliquet. Sed sed arcu non ipsum eleifend vehicula. Duis ut nibh dictum, ornare lorem id, tristique velit. Mauris a ullamcorper lacus. Curabitur a tempor risus. Sed volutpat diam quis sem tempor, eget tempus dui mattis. Suspendisse vulputate ipsum non velit volutpat consectetur.</p>
+</body>
+</html>
